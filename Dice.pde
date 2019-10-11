@@ -17,16 +17,16 @@ void draw()
     }
   }
   textSize(30);
-  text("The total sum is " + sum + ".", 20,380);
+  text("The total sum is " + sum + ".", 30,380);
   if (sum >= 100) {
   	fill(0,0,255);
   	textSize(30);
-  	text("You win!", 105, 350);
+  	text("You win!", 110, 350);
   }
   else {
   	fill(255,0,0);
   	textSize(30);
-  	text("You lose!", 105, 350);
+  	text("You lose!", 110, 350);
   }
 }
 void mousePressed()
